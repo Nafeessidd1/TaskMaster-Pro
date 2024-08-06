@@ -1,0 +1,43 @@
+{% extends 'todos/base.html' %}
+
+{% block title %}
+  <title>Login</title>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card shadow-lg mt-5">
+        <div class="card-header text-center">
+          <h2>Login</h2>
+        </div>
+        <div class="card-body">
+          <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {% if messages %}
+            <div class="alert alert-primary" role="alert">
+                {% for message in messages %}
+                {{ message }}
+                {% endfor %}
+              </div>
+            {% endif %}
+            <div class="form-group">
+              <label for="username">Username</label>
+              <input type="text" class="form-control" id="username" name="username">
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" id="password" name="password" >
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Login</button>
+          </form>
+        </div>
+        <div class="card-footer text-center">
+          <small>Don't have an account? <a href="/register">Register here</a></small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

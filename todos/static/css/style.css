@@ -1,0 +1,61 @@
+/* static/css/style.css */
+body {
+  background-color: #f8f9fa;
+}
+
+.card {
+  border-radius: 15px;
+  border: none;
+}
+
+.card-header {
+  background-color: #007bff;
+  color: rgb(175, 144, 144);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.card-body {
+  padding: 2rem;
+}
+
+.card-footer {
+  background-color: #f8f9fa;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 50px;
+}
+
+.form-control {
+  border-radius: 50px;
+  padding: 1rem;
+}
+
+.form-check-input {
+  border-radius: 50px;
+}
+
+.navbar {
+  background-color: #91225f;
+}
+
+.navbar-brand,
+.nav-link {
+  color: rgb(160, 15, 15) !important;
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%287, 7, 7, 0.5%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.nav-item {
+  margin-right: 15px;
+}

@@ -1,4 +1,4 @@
-# django-todo-app
+# TaskMaster-Pro
 This is a Django-based web application for managing todos. The app allows users to register, log in, and manage their personal todo lists. It includes features such as adding, updating, and deleting todos, along with user authentication to ensure that each user's data is private and secure.
 ## Features
 

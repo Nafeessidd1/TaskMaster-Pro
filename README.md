@@ -23,7 +23,7 @@ This is a Django-based web application for managing todos. The app allows users 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/todoapp.git
+    git clone https://github.com/Nafeessidd1/django-todo-app.git
     cd todoapp
     ```
 
